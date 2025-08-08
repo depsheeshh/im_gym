@@ -1,0 +1,109 @@
+.hero {
+    /* Gambar oleh Scott Webb di Unsplash */
+    background: url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1975&auto=format&fit=crop') no-repeat center center/cover;
+    color: white;
+    padding: 10rem 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.features-section {
+    padding: 3rem 0;
+}
+
+.features-section h3 {
+    margin-top: 1rem;
+}
+
+/* Font Kustom untuk Judul dan Teks */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
+/* CSS Kustom untuk memberikan sentuhan unik */
+.about-page-content body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.about-page-content h1,
+.about-page-content h2,
+.about-page-content h3,
+.about-page-content h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.about-page-content .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1975&auto=format&fit=crop') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-page-content .hero-section h1 {
+    font-size: 4.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.about-page-content .section-padding {
+    padding: 80px 0;
+}
+
+.about-page-content .about-image {
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.about-page-content .feature-icon {
+    font-size: 3rem;
+    color: #ffc107; /* Warna aksen kuning/gold */
+}
+
+.about-page-content .team-profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.about-page-content .cta-section {
+    background-color: #212529; /* Warna gelap */
+    color: white;
+    text-align: center;
+}
+
+.about-page-content .btn-cta {
+    background-color: #ffc107;
+    color: #212529;
+    font-weight: bold;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px;
+    transition: transform 0.2s ease;
+}
+
+.about-page-content .btn-cta:hover {
+    transform: scale(1.05);
+}
+
+  .navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+    transform: scale(1.07);
+    transition: 0.2s;
+  }
+input:focus { border-color: #dc3545; box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25); }
